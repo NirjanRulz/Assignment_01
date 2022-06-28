@@ -58,6 +58,7 @@ div img {
 
 .second_banner {
     display: flex;
+
 }
 
 .second_banner1 {
@@ -84,6 +85,11 @@ div img {
 .third_banner {
     display: flex;
     padding-left: 10%;
+    background-image: url(./backgroundshapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: 5%;
+    background-position-y: 25%;
 }
 
 .third_banner_text {
@@ -98,6 +104,11 @@ div img {
 .fourth_banner {
     display: flex;
     padding-right: 10%;
+    background-image: url(./backgroundshapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: 95%;
+    background-position-y: 80%;
 }
 
 .fourth_banner_text {
