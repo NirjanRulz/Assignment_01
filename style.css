@@ -1,5 +1,10 @@
 body {
     font-family: 'Merriweather', serif;
+    font-size: 23px;
+}
+
+section {
+    padding: 40px;
 }
 
 .orange_color {
@@ -13,21 +18,21 @@ h1 {
 div img {
     width: 60%;
     height: 80%;
-
 }
 
 .button {
-    margin: 10px 10px;
-    padding: 10px 17px;
+    margin-top: 30px;
+    padding: 20px 35px;
     text-decoration: none;
     color: aliceblue;
     background-color: tomato;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .first_banner {
     display: flex;
-    padding: 5%
+    padding-left: 10%;
+
 }
 
 .first_banner_text {
@@ -53,31 +58,53 @@ div img {
 
 .second_banner {
     display: flex;
-    padding-left: 10%;
-
 }
 
 .second_banner1 {
-    margin: 20px 25px;
-    padding: 10px 20px;
+    margin: 20px 20px;
+    padding: 50px 20px;
     background-color: antiquewhite;
     border-radius: 30px;
 }
 
 .second_banner2 {
-    margin: 20px 25px;
-    padding: 10px 20px;
+    margin: 20px 20px;
+    padding: 50px 20px;
     background-color: aliceblue;
     border-radius: 30px;
 }
 
 .second_banner3 {
-    margin: 20px 25px;
-    padding: 10px 20px;
+    margin: 20px 20px;
+    padding: 50px 20px;
     background-color: bisque;
     border-radius: 50px;
 }
 
-.second_banner_text {
-    padding: 30px 40px;
+.third_banner {
+    display: flex;
+    padding-left: 10%;
+}
+
+.third_banner_text {
+    margin: 10px 50px;
+    padding-right: 20%;
+}
+
+#third_banner_img {
+    width: 600px;
+}
+
+.fourth_banner {
+    display: flex;
+    padding-right: 10%;
+}
+
+.fourth_banner_text {
+    margin: 10px 50px;
+    padding-right: 20px;
+}
+
+#fourth_banner_img {
+    width: 650px;
 }
