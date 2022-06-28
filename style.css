@@ -58,28 +58,29 @@ div img {
 
 .second_banner {
     display: flex;
+    padding-left: 3.5%;
 
 }
 
 .second_banner1 {
-    margin: 20px 20px;
+    margin: 20px 3%;
     padding: 50px 20px;
-    background-color: antiquewhite;
+    background-color: rgb(127, 240, 255);
     border-radius: 30px;
 }
 
 .second_banner2 {
-    margin: 20px 20px;
+    margin: 20px 3%;
     padding: 50px 20px;
     background-color: aliceblue;
     border-radius: 30px;
 }
 
 .second_banner3 {
-    margin: 20px 20px;
+    margin: 20px 3%;
     padding: 50px 20px;
     background-color: bisque;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .third_banner {
