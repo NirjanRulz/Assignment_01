@@ -145,3 +145,22 @@ div img {
     background-position-x: 40%, 38%, 100%;
     background-position-y: 1.5%, 100%, 50%;
 }
+
+.footer {
+
+    left: 0;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+}
