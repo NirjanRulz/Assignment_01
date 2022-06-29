@@ -65,14 +65,14 @@ div img {
 .second_banner1 {
     margin: 20px 3%;
     padding: 50px 20px;
-    background-color: rgb(127, 240, 255);
+    background-color: aliceblue;
     border-radius: 30px;
 }
 
 .second_banner2 {
     margin: 20px 3%;
     padding: 50px 20px;
-    background-color: aliceblue;
+    background-color: rgb(127, 240, 255);
     border-radius: 30px;
 }
 
@@ -119,4 +119,29 @@ div img {
 
 #fourth_banner_img {
     width: 650px;
+}
+
+.bonus_banner {
+    display: flex;
+
+}
+
+.second_midline {
+    text-align: center;
+}
+
+.bonus_banner-text {
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-right: 20%;
+}
+
+#bonus_banner_img {
+    width: 500px;
+    padding-left: 50%;
+    background-image: url(./backgroundshapes/shape-2.png), url(./backgroundshapes/shape-3.png), url(./backgroundshapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 110px, 110px, 110px;
+    background-position-x: 40%, 38%, 100%;
+    background-position-y: 1.5%, 100%, 50%;
 }
